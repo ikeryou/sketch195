@@ -29,10 +29,11 @@ canvas {
 
 .l-btn {
   position: fixed;
-  top: 20vw;
-  left: 20vw;
-  width: 10vw;
-  height: 10vw;
+  top: 10vw;
+  left: 10vw;
+  width: 20vw;
+  height: 20vw;
+  z-index: 9999;
   background-color: #FFF;
   color: #000;
   display: flex;
@@ -55,6 +56,7 @@ canvas {
   flex-direction: column;
   justify-content: space-between;
   padding: 4vw;
+  pointer-events: none;
 }
 p {
   color: #000;
